@@ -19,7 +19,7 @@ namespace TicketDesk.Localization.Domain {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Strings {
@@ -174,6 +174,15 @@ namespace TicketDesk.Localization.Domain {
         public static string DefaultNewUserRoles {
             get {
                 return ResourceManager.GetString("DefaultNewUserRoles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New Ticket.
+        /// </summary>
+        public static string Department {
+            get {
+                return ResourceManager.GetString("Department", resourceCulture);
             }
         }
         
@@ -687,6 +696,33 @@ namespace TicketDesk.Localization.Domain {
         public static string TicketCurrentStatusSetByShort {
             get {
                 return ResourceManager.GetString("TicketCurrentStatusSetByShort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string TicketDepartment {
+            get {
+                return ResourceManager.GetString("TicketDepartment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter Ticket Department.
+        /// </summary>
+        public static string TicketDepartment_Placeholder {
+            get {
+                return ResourceManager.GetString("TicketDepartment_Placeholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string TicketDepartmentShort {
+            get {
+                return ResourceManager.GetString("TicketDepartmentShort", resourceCulture);
             }
         }
         

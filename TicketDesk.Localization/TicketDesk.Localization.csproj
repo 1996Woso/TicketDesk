@@ -667,10 +667,12 @@
     <EmbeddedResource Include="Views\Ticket\New.pt-BR.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>New.pt-BR.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Ticket\New.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>New.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UserAdministration\Edit.pt-BR.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

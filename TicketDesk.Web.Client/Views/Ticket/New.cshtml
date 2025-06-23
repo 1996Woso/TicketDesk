@@ -19,7 +19,7 @@
 @using TicketDesk.Domain.Model
 @model Ticket
 
-@section title { @New.Title }
+@section title { @New.Title } 
 
 @section scripts
 {
@@ -136,6 +136,14 @@
                             }
 
                         </div>
+                        <!--Add Department-->
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Department, new { @class = "col-md-2 col-sm-1 control-label focus" })
+                            <div class="col-md-8 col-sm-11">
+                                @Html.TextBoxFor(model => model.Department, new { @class = "form-control input-sm", placeholder = "", tabindex = 1, autofocus = string.Empty })
+                                @Html.ValidationMessageFor(model => model.Department, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
                         @if (Model.IsHtml)//TODO: Refactor into a partial or mvc editorfor view
                         {
                             <div class="form-group">
@@ -186,10 +194,10 @@
                             }
                             @if (Model.AllowSetAssigned())
                             {
-                                @Html.LabelFor(model => model.AssignedTo, new {@class = "col-md-2 col-sm-2 control-label"})
+                                @Html.LabelFor(model => model.AssignedTo, new { @class = "col-md-2 col-sm-2 control-label" })
                                 <div class="col-md-3 col-sm-4">
-                                    @Html.DropDownListFor(model => model.AssignedTo, Model.GetAssignedToList(), new {@class = "form-control input-sm", tabindex = 9})
-                                    @Html.ValidationMessageFor(model => model.AssignedTo, "", new {@class = "text-danger"})
+                                    @Html.DropDownListFor(model => model.AssignedTo, Model.GetAssignedToList(), new { @class = "form-control input-sm", tabindex = 9 })
+                                    @Html.ValidationMessageFor(model => model.AssignedTo, "", new { @class = "text-danger" })
                                 </div>
                             }
                         </div>

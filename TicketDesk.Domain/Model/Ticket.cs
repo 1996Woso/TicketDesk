@@ -56,6 +56,11 @@ namespace TicketDesk.Domain.Model
         [StringLength(500, ErrorMessageResourceName = "FieldMaximumLength", ErrorMessageResourceType = typeof(Validation))]
         [Display(ResourceType = typeof(Strings), Name = "TicketTitle", ShortName = "TicketTitleShort")]
         public string Title { get; set; }
+        //Add Department 
+        [Required(ErrorMessageResourceName = "FieldRequired", ErrorMessageResourceType = typeof(Validation))]
+        [StringLength(100, ErrorMessageResourceName = "FieldMaximumLength", ErrorMessageResourceType = typeof(Validation))]
+        [Display(ResourceType = typeof(Strings), Name = "TicketDepartment", ShortName = "TicketDepartmentShort")]
+        public string Department { get; set; }
 
         [Required(ErrorMessageResourceName = "FieldRequired", ErrorMessageResourceType = typeof(Validation))]
         [Display(ResourceType = typeof(Strings), Name = "TicketDetails", ShortName = "TicketDetailsShort")]

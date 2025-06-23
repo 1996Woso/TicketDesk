@@ -230,7 +230,19 @@ namespace TicketDesk.Localization.Views.TicketCenter {
                 return ResourceManager.GetString("TicketList_Title", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string TicketList_Department
+        {
+            get
+            {
+                return ResourceManager.GetString("TicketList_Department", resourceCulture);
+            }
+        }
+
+
         /// <summary>
         ///   Looks up a localized string similar to Type.
         /// </summary>
@@ -257,7 +269,18 @@ namespace TicketDesk.Localization.Views.TicketCenter {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Ticket Center.
+        /// </summary>
+        public static string Department
+        {
+            get
+            {
+                return ResourceManager.GetString("Department", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Toggle navigation.
         /// </summary>

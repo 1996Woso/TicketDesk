@@ -416,4 +416,16 @@
   <data name="AllowInternalUsersToSetOwner" xml:space="preserve">
     <value>Allow internal users to set or change the ticket owner?</value>
   </data>
+  <data name="Department" xml:space="preserve">
+    <value>New Ticket</value>
+  </data>
+  <data name="TicketDepartmentShort" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="TicketDepartment_Placeholder" xml:space="preserve">
+    <value>Enter Ticket Department</value>
+  </data>
+  <data name="TicketDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
 </root>

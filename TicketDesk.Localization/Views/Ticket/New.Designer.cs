@@ -159,7 +159,7 @@ namespace TicketDesk.Localization.Views.Ticket {
                 return ResourceManager.GetString("TicketTitle_Placeholder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New Ticket.
         /// </summary>
@@ -168,7 +168,30 @@ namespace TicketDesk.Localization.Views.Ticket {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
-        
+
+
+        /// <summary>
+        ///   Looks up a localized string similar to Ticket department.
+        /// </summary>
+        public static string TicketDepartment_Placeholder
+        {
+            get
+            {
+                return ResourceManager.GetString("TicketDepartment_Placeholder", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Ticket department.
+        /// </summary>
+        public static string Department
+        {
+            get
+            {
+                return ResourceManager.GetString("Department", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to create ticket, please correct the errors below.
         /// </summary>

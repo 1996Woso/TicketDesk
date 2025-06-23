@@ -131,7 +131,17 @@ namespace TicketDesk.Localization.Views.Ticket {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Department.
+        /// </summary>
+        public static string Department
+        {
+            get
+            {
+                return ResourceManager.GetString("Department", resourceCulture);
+            }
+        }
         /// <summary>
         ///   Looks up a localized string similar to Unassigned.
         /// </summary>
